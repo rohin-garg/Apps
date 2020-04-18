@@ -56,3 +56,5 @@ Map integration
    - Open Android Studio and open the folder with this submission in the app
    - Click [here](https://developer.android.com/training/basics/firstapp/running-app) for more information on how to run the app
    - Browse the app by creating a new user, and navigating using the onscreen buttons
+   
+<img src="https://github.com/rohin-garg/Apps/blob/master/CoronavirusMapAppHack/Screenshot_20200417-232220.png" height="300" width="150"> <img src="https://github.com/rohin-garg/Apps/blob/master/CoronavirusMapAppHack/Screenshot_20200417-232259.png" height="300" width="150"> <img src="https://github.com/rohin-garg/Apps/blob/master/CoronavirusMapAppHack/Screenshot_20200417-232319.png" height="300" width="150"> <img src="https://github.com/rohin-garg/Apps/blob/master/CoronavirusMapAppHack/Screenshot_20200417-232411.png" height="300" width="150">
