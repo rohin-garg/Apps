@@ -36,7 +36,7 @@ Map integration
 4. Flask/Python Server
 
 
-[Technology Diagram](CovidAlertDiagram.png)
+![Technology Diagram](https://github.com/rohin-garg/Apps/blob/master/CoronavirusMapAppHack/CovidAlertDiagram.png)
 
 
 
