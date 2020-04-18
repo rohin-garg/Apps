@@ -47,7 +47,7 @@ Map integration
 ### Usage:
 1. Run the server (Click [here](https://flask.palletsprojects.com/en/1.1.x/installation/) and [here](https://flask.palletsprojects.com/en/1.1.x/quickstart/) for more information)
    - Create a virtual environment on your laptop
-   - Run “pip install _______” in your commandline for every module listed below
+   - Run “pip install _______” in your command line for every module listed below
      - sqlite3
      - flask
    - Run the server
