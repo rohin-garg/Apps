@@ -50,6 +50,7 @@ Map integration
    - Run “pip install _______” in your command line for every module listed below
      - sqlite3
      - flask
+   - Before running the server, make sure your firewall isn't blocking the server
    - Run the server
    - Make sure the .db files and the python file are located in the same folder
 2. Run the app
