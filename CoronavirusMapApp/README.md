@@ -62,10 +62,10 @@ Map integration
 
 <img src="https://github.com/rohin-garg/Apps/blob/master/CoronavirusMapApp/Screenshot_20200418-191441.png" height="300" width="150"> - Sign Up
 
-<img src="https://github.com/rohin-garg/Apps/blob/master/CoronavirusMapApp/Screenshot_20200418-191230.png" height="300" width="150">
+<img src="https://github.com/rohin-garg/Apps/blob/master/CoronavirusMapApp/Screenshot_20200418-191230.png" height="300" width="150"> - Example of Alert
 
-<img src="https://github.com/rohin-garg/Apps/blob/master/CoronavirusMapApp/Screenshot_20200418-191206.png" height="300" width="150">
+<img src="https://github.com/rohin-garg/Apps/blob/master/CoronavirusMapApp/Screenshot_20200418-191206.png" height="300" width="150"> - Displaying Current Location
 
-<img src="https://github.com/rohin-garg/Apps/blob/master/CoronavirusMapApp/Screenshot_20200418-191117.png" height="300" width="150">
+<img src="https://github.com/rohin-garg/Apps/blob/master/CoronavirusMapApp/Screenshot_20200418-191117.png" height="300" width="150"> - Notifying Others of Infection Through App
 
-<img src="https://github.com/rohin-garg/Apps/blob/master/CoronavirusMapApp/Screenshot_20200418-191136.png" height="300" width="150">
+<img src="https://github.com/rohin-garg/Apps/blob/master/CoronavirusMapApp/Screenshot_20200418-191136.png" height="300" width="150"> - Entering Date of Infection
