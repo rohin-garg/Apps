@@ -10,7 +10,7 @@ By Rohin Garg
 #### Topic: Healthcare
 
 
-### What the app accomplishes:
+### What the app accomplishes
 
 By using crowdsourcing, this mobile-based full-stack application can be used to efficiently and proactively alert users if they have been exposed to someone who tested positive for Covid-19. 
 When any user tests positive for covid-19, the app determines which of its users have been in the same location as the infected user in the last 14 days prior to showing symptoms. This would help identify people who may have been infected, but are not showing symptoms yet, expediting the testing process and flattening the curve.
@@ -68,11 +68,11 @@ Allows users to manage their personal information, including account details and
 
 
 
-### Installation:
+### Installation
 1. An android phone OR
 2. Android Studio with a virtual device installed
 
-### Usage:
+### Usage
 1. Run the server (Click [here](https://flask.palletsprojects.com/en/1.1.x/installation/) and [here](https://flask.palletsprojects.com/en/1.1.x/quickstart/) for more information)
    - Activate the virtual environment when navigating inside the folder containing the server (python) files
    - Run “pip install _______” in your command line for every module listed below while staying in the same directory
