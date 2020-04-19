@@ -85,7 +85,9 @@ Allows users to manage their personal information, including account details and
    - Open Android Studio and open the folder with this submission in the app
    - Click [here](https://developer.android.com/training/basics/firstapp/running-app) for more information on how to run the app
    - Browse the app by creating a new user, and navigating using the onscreen buttons
-   
+
+### Screenshots of the app
+
 <img src="https://github.com/rohin-garg/Apps/blob/master/CoronavirusMapApp/Screenshot_20200418-191253.png" height="300" width="150"> - Sign In
 
 <img src="https://github.com/rohin-garg/Apps/blob/master/CoronavirusMapApp/Screenshot_20200418-191441.png" height="300" width="150"> - Sign Up
