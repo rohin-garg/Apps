@@ -3,12 +3,15 @@ package com.example.coronavirusmapapp;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.DatePickerDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.icu.util.Calendar;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.DatePicker;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.NetworkError;
@@ -32,27 +35,39 @@ public class HasCorona extends AppCompatActivity {
     String username;
     RequestQueue queue;
     Button backB;
+    DatePickerDialog picker;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_has_corona);
+
+        getSupportActionBar().setTitle("CovidAlert");
+
         coronaB = findViewById(R.id.confirm);
-        backB = findViewById(R.id.backbuttoncoronascreen);
+        //backB = findViewById(R.id.backbuttoncoronascreen);
 
         username = getIntent().getStringExtra("username");
         queue = Volley.newRequestQueue(this);
         coronaB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                hasCoronaB();
-            }
-        });
-        backB.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(HasCorona.this, MainActivity.class);
-                intent.putExtra("username", username);
-                startActivity(intent);
+                final Calendar cldr = Calendar.getInstance();
+                int day = cldr.get(Calendar.DAY_OF_MONTH);
+                int month = cldr.get(Calendar.MONTH);
+                int year = cldr.get(Calendar.YEAR);
+                // date picker dialog
+                picker = new DatePickerDialog(HasCorona.this,
+                        new DatePickerDialog.OnDateSetListener() {
+                            @Override
+                            public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
+                                Intent intent = new Intent(HasCorona.this, MainActivity.class);
+                                intent.putExtra("username", username);
+                                startActivity(intent);
+                            }
+                        }, year, month, day);
+                picker.show();
+                //hasCoronaB();
+
             }
         });
 

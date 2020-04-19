@@ -4,57 +4,73 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#206B88"
     tools:context=".SignIn">
 
-    <TextView
+    <ImageView
         android:id="@+id/TitleSignIn"
+        android:layout_width="360dp"
+        android:layout_height="100dp"
         android:layout_centerHorizontal="true"
-        android:textColor="@android:color/black"
-        android:textSize="60sp"
-        android:layout_marginTop="80dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/covidalerttitletwolines"
+        android:layout_below="@+id/logoSignIn"/>
 
-        android:text="@string/signin_title"/>
+
+
+
+    <ImageView
+        android:id="@+id/logoSignIn"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/covidlogo"
+        android:layout_centerHorizontal="true"
+        />
+
 
     <EditText
         android:id="@+id/usernameSignIn"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
         android:layout_below="@+id/TitleSignIn"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="90dp"
-        android:hint="Username..."/>
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Username:"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
 
     <EditText
         android:id="@+id/passwordSignIn"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPassword"
         android:layout_below="@+id/usernameSignIn"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:hint="Password..."/>
+        android:ems="10"
+        android:hint="Password:"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
 
     <Button
         android:id="@+id/loginButton"
-        android:layout_width="wrap_content"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:text="Sign in"
         android:layout_below="@+id/passwordSignIn"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btn_rounded"
         />
 
     <Button
         android:id="@+id/moveToSignUp"
-        android:layout_width="wrap_content"
+        android:layout_width="330dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="30dp"
-        android:text="Don't have an account? Sign up for free!" />
+        android:text="Don't have an account? Sign up for free!"
+        android:background="@drawable/btn_rounded"/>
 </RelativeLayout>

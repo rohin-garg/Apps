@@ -8,6 +8,9 @@ import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.PorterDuff;
+import android.graphics.PorterDuffColorFilter;
+import android.graphics.drawable.Drawable;
 import android.location.Location;
 import android.os.Bundle;
 import android.os.Debug;
@@ -15,6 +18,7 @@ import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
@@ -57,17 +61,21 @@ public class MainActivity extends AppCompatActivity {
     private FusedLocationProviderClient fusedLocationClient;
     private final int REQUEST_PERMISSIONS_REQUEST_CODE = 1;
     private MapView map = null;
-    Button coronaScreen;
+    ImageButton coronaScreen;
     String username;
     RequestQueue queue;
     Timer timer;
-    Button logOut;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Context ctx = getApplicationContext();
         Configuration.getInstance().load(ctx, PreferenceManager.getDefaultSharedPreferences(ctx));
         setContentView(R.layout.activity_main);
+
+        Drawable mIcon = this.getResources().getDrawable(R.drawable.home);
+        mIcon.setColorFilter(new PorterDuffColorFilter(getResources().getColor(R.color.selectedicon), PorterDuff.Mode.MULTIPLY));
+
+        getSupportActionBar().setTitle("CovidAlert");
 
         queue = Volley.newRequestQueue(this);
 
@@ -122,14 +130,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        logOut = findViewById(R.id.logout);
-        logOut.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, SignIn.class);
-                startActivity(intent);
-            }
-        });
+
 
         timer = new Timer();
         timer.schedule(new PLocTimer(), 0, 5000);

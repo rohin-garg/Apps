@@ -4,18 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#206B88"
     tools:context=".SignIn">
 
-    <TextView
+    <ImageView
         android:id="@+id/TitleSignUp"
+        android:layout_width="360dp"
+        android:layout_height="100dp"
         android:layout_centerHorizontal="true"
-        android:textColor="@android:color/black"
-        android:textSize="60sp"
-        android:layout_marginTop="80dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/covidalerttitletwolines"
+        android:layout_below="@+id/logoSignUp"/>
 
-        android:text="@string/signup_title"/>
+    <ImageView
+        android:id="@+id/logoSignUp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/covidlogo"
+        android:layout_centerHorizontal="true"
+        />
 
     <EditText
         android:id="@+id/usernameSignUp"
@@ -25,8 +31,10 @@
         android:inputType="text"
         android:layout_below="@+id/TitleSignUp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="90dp"
-        android:hint="Username..."/>
+        android:layout_marginTop="30dp"
+        android:hint="Username:"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"/>
 
     <EditText
         android:id="@+id/passwordSignUp"
@@ -37,15 +45,18 @@
         android:layout_below="@+id/usernameSignUp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:hint="Password..."/>
+        android:hint="Password:"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"/>
 
     <Button
         android:id="@+id/signUpButton"
-        android:layout_width="wrap_content"
+        android:layout_width="130dp"
         android:layout_height="wrap_content"
         android:text="Sign up"
         android:layout_below="@+id/passwordSignUp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="80dp"
+        android:background="@drawable/btn_rounded"
         />
 </RelativeLayout>

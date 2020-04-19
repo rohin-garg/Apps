@@ -40,6 +40,8 @@ public class SignUp extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
 
+        getSupportActionBar().setTitle("CovidAlert");
+
         usernameIn = findViewById(R.id.usernameSignUp);
         passIn = findViewById(R.id.passwordSignUp);
 
