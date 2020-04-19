@@ -64,7 +64,7 @@ Map integration
 
 <img src="https://github.com/rohin-garg/Apps/blob/master/CoronavirusMapApp/Screenshot_20200418-191230.png" height="300" width="150">
 
-<img src="https://github.com/rohin-garg/Apps/blob/master/CoronavirusMapApp/Screenshot_20200418-191230.png" height="300" width="150">
+<img src="https://github.com/rohin-garg/Apps/blob/master/CoronavirusMapApp/Screenshot_20200418-191206.png" height="300" width="150">
 
 <img src="https://github.com/rohin-garg/Apps/blob/master/CoronavirusMapApp/Screenshot_20200418-191117.png" height="300" width="150">
 
