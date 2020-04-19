@@ -19,15 +19,43 @@ To achieve this, the consent-driven app maintains a database of the locations of
 
 
 
-### Application Features
+### Application Overview
 
-Logs your location wherever you go
-Allows you to use contact tracing to prevent coronavirus before it happens
-Protects privacy by only detecting registered users’ locations
-Connection to a SQL Database to seamlessly and securely manage all users’ data, through a central server
-Map integration
+1. Logs your location wherever you go.
+2. Allows you to use contact tracing to alert potential coronavirus exposures as early as possible.
+3. Protects privacy by only detecting registered users’ locations.
+4. Connection to a SQL Database to seamlessly and securely manage all users’ data, through a central server.
+5. Map integration.
 
+### Core Features
 
+#### History
+
+Displays users' past locations, for as many days as they choose to view.
+
+#### Near Me
+
+Allows users to view infections within a certain radius of their preffered location, which can be configured in settings.
+
+#### Report Infection
+
+Allows users to report positive test resuls for COVID-19. This is used to alert other users have been in the same location as the person who tested positive.
+
+#### Search
+
+Allows you to look at infections at any area. This can be used to determine if a specific location is safe to go to.
+
+#### Circle
+
+Allows users to build a circle with their friends and family. They can find out if any of their loved ones has tested positive or could have been exposed.
+
+#### Resources
+
+Provides additional information and resources about precautions and other activies that people should partake in during this outbreak.
+
+#### Settings
+
+Allows users to manage their personal information, including account details and preffered locations
 
 ### Technologies Used
 1. Android
