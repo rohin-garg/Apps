@@ -36,7 +36,7 @@ Map integration
 4. Flask/Python Server
 
 
-![Technology Diagram](https://github.com/rohin-garg/Apps/blob/master/CoronavirusMapAppHack/CovidAlertDiagram.png)
+![Technology Diagram](https://github.com/rohin-garg/Apps/blob/master/CoronavirusMapApp/CovidAlertDiagram.png)
 
 
 
@@ -47,9 +47,10 @@ Map integration
 ### Usage:
 1. Run the server (Click [here](https://flask.palletsprojects.com/en/1.1.x/installation/) and [here](https://flask.palletsprojects.com/en/1.1.x/quickstart/) for more information)
    - Create a virtual environment on your laptop
-   - Run “pip install _______” in your commandline for every module listed below
+   - Run “pip install _______” in your command line for every module listed below
      - sqlite3
      - flask
+   - Before running the server, make sure your firewall isn't blocking the server
    - Run the server
    - Make sure the .db files and the python file are located in the same folder
 2. Run the app
@@ -57,4 +58,10 @@ Map integration
    - Click [here](https://developer.android.com/training/basics/firstapp/running-app) for more information on how to run the app
    - Browse the app by creating a new user, and navigating using the onscreen buttons
    
-<img src="https://github.com/rohin-garg/Apps/blob/master/CoronavirusMapAppHack/Screenshot_20200417-232220.png" height="300" width="150"> <img src="https://github.com/rohin-garg/Apps/blob/master/CoronavirusMapAppHack/Screenshot_20200417-232259.png" height="300" width="150"> <img src="https://github.com/rohin-garg/Apps/blob/master/CoronavirusMapAppHack/Screenshot_20200417-232319.png" height="300" width="150"> <img src="https://github.com/rohin-garg/Apps/blob/master/CoronavirusMapAppHack/Screenshot_20200417-232411.png" height="300" width="150">
+<img src="https://github.com/rohin-garg/Apps/blob/master/CoronavirusMapApp/Screenshot_20200417-232220.png" height="300" width="150">
+
+<img src="https://github.com/rohin-garg/Apps/blob/master/CoronavirusMapApp/Screenshot_20200417-232259.png" height="300" width="150">
+
+<img src="https://github.com/rohin-garg/Apps/blob/master/CoronavirusMapApp/Screenshot_20200417-232319.png" height="300" width="150">
+
+<img src="https://github.com/rohin-garg/Apps/blob/master/CoronavirusMapApp/Screenshot_20200417-232411.png" height="300" width="150">
